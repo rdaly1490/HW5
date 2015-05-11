@@ -74,32 +74,49 @@ button {
 	font-size:1em;
 }
 
-@media (min-width:767px) {
-	// .text.left {
-	// 	float:left;
-	// 	width:45%;
-	// }
-	// .text.right {
-	// 	float:right;
-	// 	width:45%;
-	// }
-	// label:first-child {
-	// 	float:right;
-	// 	display:block;
-	// 	clear:left;
-	.left {
+@media (min-width:768px) {
+	.group-1 {
 		float:left;
-		margin:0px 10px 35px 0px;
+		margin:0px 35px 35px 0px;
+		width:47%;
 	}
-	.right {
+	.group-2 {
 		float:right;
 		margin:0px 0px 35px 0px;
+		width:47%;
 	}
-	.bottom {
+	.group-3 {
 		clear:both;
+	}
+	body {
+		font-size: 14px;
 	}
 }
 
+@media (min-width:1122px) {
+	.group-1 {
+		float:left;
+		width:30%;
+		margin:0px 30px 35px 0px;
+	}
+	.group-2 {
+		float:left;
+		width:30%;
+		margin:0px 30px 35px 0px;
+	}
+	.group-3 {
+		float:right;
+		clear:right;
+		width:30%;
+		margin:0px 0px 35px 0px;
+	}
+	button {
+		clear:both;
+	}
+	body {
+		font-size: 15px;
+	}
+}
 
 
 
