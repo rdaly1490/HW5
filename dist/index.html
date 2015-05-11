@@ -2,35 +2,116 @@
 <html>
 <head>
 	<title>Responsive Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<div class="left">
+		<label>
+		FIRST NAME
+			<input type="text" value="Jonathan" class="text">
+		</label>
 
-<label>
-FIRST NAME
-<input type="test" value="Jonathan">
-</label>
+		<label>
+		LAST NAME
+			<input type="text" value="Doe" class="text">
+		</label>
 
-<label>
-LAST NAME
-<input type="test" value="Doe">
-</label>
+		<label>
+		EMAIL ADDRESS
+			<input type="text" value="jon@doe.com" class="text">
+		</label>
 
-<label>
-EMAIL ADDRESS
-<input type="test" value="jon@doe.com">
-</label>
+		<label>
+		COUNTRY
+			<select>
+				<option>Choose a country</option>
+				<option>United States</option>
+				<option>USA</option>
+				<option>United States of America</option>
+				<option>Did you mean United States?</option>
+			</select>
+		</label>
 
-<select>
-	<label>COUNTRY</label>
-	<option>United States</option>
-	<option>States</option>
-	<option>Did you mean United States?</option>
-</select>
+		<label>
+		BIOGRAPHY
+			<textarea>
+			</textarea>
+		</label>
+	</div>
+	<div class="right">
+		<label>
+		PHONE NUMBER
+			<input type="text" value="+351 999 9999" class="text right">
+		</label>
 
-<textarea>
-	<label>BIOGRAPHY</label>
+		<label>
+		AFFILIATIONS
+			<textarea>
+			</textarea>
+		</label>
 
-</textarea>
+		<label>
+		OCCUPATION
+			<select>
+				<option>Choose an occupation</option>
+				<option>Spy</option>
+				<option>Medic</option>
+				<option>Warlock</option>
+			</select>
+		</label>
+
+		<label>
+		CAT'S NAME
+			<input type="text" value="Kitty" class="text right">
+		</label>
+
+		<label>
+		FAVORITE GADGET
+				<label><input type="radio" name="group1" value="HEALING HOCKEY DYNABOMB"> HEALING HOCKEY DYNABOMB</label>
+				<label><input type="radio" name="group1" value="GARLIC GYRO-STABILIZED AQUAWASHER"> GARLIC GYRO-STABILIZED AQUAWASHER</label>
+				<label><input type="radio" name="group1" value="NUCLEAR HAIRSPRAY"> NUCLEAR HAIRSPRAY</label>
+				<label><input type="radio" name="group1" value="STABILIZED EXPLOSIVE LADLE"> STABILIZED EXPLOSIVE LADLE</label>
+		</label>
+	</div>
+	<div class="bottom">
+		<label>
+			TYPE OF TALENT
+				<select>
+					<option>Choose a talent</option>
+					<option>Invisible</option>
+					<option>Flying</option>
+					<option>Really really ridiculously good-looking</option>
+					<option>Super fast</option>
+				</select>
+		</label>
+
+		<label>
+		FAVORITE DRINKS
+			<label><input type="checkbox" name="group2" value="ORANGE JUICE"> ORANGE JUICE</label>
+			<label><input type="checkbox" name="group2" value="COFFEE"> COFFEE</label>
+			<label><input type="checkbox" name="group2" value="SODA"> SODA</label>
+			<label><input type="checkbox" name="group2" value="WINE"> WINE</label>
+			<label><input type="checkbox" name="group2" value="BEER"> BEER</label>
+		</label>
+
+		<label>
+		SPECIAL POWER
+			<input type="text" value="Anti-gravity" class="text">
+		</label>
+
+		<label>
+		WEAPON OF CHOICE
+			<input type="text" value="Lightsaber" class="text">
+		</label>
+
+		<label>
+		COMMENTS
+			<textarea>
+			</textarea>
+		</label>
+
+		<button>SEND YOUR DATA</button>
+	</div>
 
 </body>
 </html>
