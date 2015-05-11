@@ -21,7 +21,8 @@ input [type="radio"] {
   width: 100%;
   height: 30px;
   border: 2px solid #fff;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  font-family: Lato, Calibri, Arial, sans-serif; }
 
 input [type="checkbox"] {
   display: inline;
@@ -30,7 +31,8 @@ input [type="checkbox"] {
   width: 100%;
   height: 30px;
   border: 2px solid #fff;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  font-family: Lato, Calibri, Arial, sans-serif; }
 
 textarea {
   display: block;
@@ -38,7 +40,8 @@ textarea {
   color: #10689A;
   width: 100%;
   height: 150px;
-  border: 2px solid #fff; }
+  border: 2px solid #fff;
+  font-family: Lato, Calibri, Arial, sans-serif; }
 
 select {
   display: block;
@@ -62,7 +65,8 @@ button {
   background: #10689A;
   color: #fff;
   border: none;
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: Lato, Calibri, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   .group-1 {
@@ -78,7 +82,7 @@ button {
   body {
     font-size: 14px; } }
 
-@media (min-width: 900px) {
+@media (min-width: 1122px) {
   .group-1 {
     float: left;
     width: 31.5%;
